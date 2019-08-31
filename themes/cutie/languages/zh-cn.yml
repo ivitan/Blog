@@ -75,11 +75,11 @@ page:
   tags: 标签
 
 footer:
-  powered: "Powered by %s"
-  theme: Theme
-  copyright: Copyright by
-  design: Designed by
-  and: and
+  powered: "由 %s 强力驱动"
+  theme: 主题
+  copyright: "版权所有"
+  design: 设计
+  and: 和
 
 counter:
   tag_cloud:

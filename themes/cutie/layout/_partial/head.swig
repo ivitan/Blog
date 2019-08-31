@@ -4,7 +4,8 @@
 
 <head>
 
-  <!-- Basic Page Needs -->
+  <!-- Basic Page Needs
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <meta charset="utf-8">
   {% if is_home() %}
       <title>{{ config.title }}</title>
@@ -77,15 +78,9 @@ crossorigin="anonymous"></script>
   {% elseif comment_system === 'gitment' %}
     {{ partial('_third_party/gitment_head') }}
   {% endif %}
-  <!-- Favicon -->
-  <link rel="icon" type="image/png" href="/images/favicon.png">
-  
-  <!-- Google Adsense -->
-  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-  <script>
-    (adsbygoogle = window.adsbygoogle || []).push({
-      google_ad_client: "ca-pub-2581760538335948",
-      enable_page_level_ads: true
-    });
-  </script>
+  <!-- Favicon
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+
+  {% set favicon = parse_config([site.data.global.favicon, '/images/vitan.svg']) %}
+  <link rel="icon" href="{{ favicon }}">
 </head>

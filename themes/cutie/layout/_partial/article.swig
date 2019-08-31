@@ -187,7 +187,6 @@
     {% set allow_comment = parse_config([item.allow_comment, site.data.cutie.post.allow_comment, theme.post.allow_comment]) %}
     {% if allow_comment %}
         <div class="article-comment" id='article-comment'>
-            {% include 'google_adsense.swig' %}
             {{ partial('_partial/comment-html') }}
         </div>
     {% endif %}    
