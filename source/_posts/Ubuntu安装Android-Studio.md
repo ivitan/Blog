@@ -7,6 +7,7 @@ tags:
 - Android
 toc: true
 categories: notes
+permalink: UbuntuAndroidStudio
 thumbnail: /images/Ubuntu.png
 ---
 
@@ -21,8 +22,10 @@ sudo mv -r /usr/local/ android-sdk-linux
 - 更改属主、属组
  ·cd /usr/local/·
  ·sudo chown -R vitan:vitan android-sdk/
+ 
 ## 配置SDK环境变量
 - `vim /etc/profile`后添加
+
 ```
 set sdk environment
 export SDK_HOME=/usr/local/android-sdk-linux

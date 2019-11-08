@@ -12,13 +12,8 @@
                 </a>
                 -->
                 <p class="is-size-7">
-                    &copy; <%= date(new Date(), 'YYYY') %> <%= get_config('author') || get_config('title') %>&nbsp;
-                    Powered by <a href="http://hexo.io/" target="_blank">Hexo</a> & <a
-                        href="http://github.com/ppoffice/hexo-theme-icarus" target="_blank">Icarus</a>
-                </p>
-                <p class="is-size-7">
                     <span id="busuanzi_container_site_uv">
-                        ❤️ 感谢
+                        感谢
                         <span id="busuanzi_value_site_uv">0</span>
                         位小伙伴的
                     </span>
@@ -26,6 +21,10 @@
                         <span id="busuanzi_value_site_pv">0</span>
                         次陪伴
                     </span>
+                    </p>
+                <p class="is-size-7">
+                    Copyright by <%= get_config('author') || get_config('title') %> @ <%= date(new Date(), 'YYYY') %> &bull; Powered by <a href="http://hexo.io/" target="_blank">Hexo</a> &bull; Theme: <a
+                        href="http://github.com/ppoffice/hexo-theme-icarus" target="_blank">Icarus</a>
                 </p>
             </div>
             <div class="level-end">

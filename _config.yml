@@ -17,7 +17,7 @@ timezone: Asia/Shanghai
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
 url: https://vitan.me
 root: /
-permalink: :year/:month/:day/:title/
+permalink: posts/:title.html
 permalink_defaults: :title/
 
 # Directory
@@ -114,11 +114,12 @@ google_analytics: UA-144334903-1
 google_adsense:
   id: ca-pub-2581760538335948
 
-#hexo sitemap
+#Rss Sitemap
+feed:
+  type: atom
+  path: /xml/atom.xml
 sitemap:
-  path: sitemap.xml
-baidusitemap:
-  path: bdmap.xml
+  path: /xml/sitemap.xml
 
 # 打赏
 donate:
