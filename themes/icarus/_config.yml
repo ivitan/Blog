@@ -15,7 +15,7 @@ navbar:
     menu:
         Home: /
         Archives: /archives
-        Tags: /tags
+        Category: /categories
         About: /about
 
     links:
@@ -30,7 +30,7 @@ footer:
         GitHub:
             icon: fab fa-github
             url: 'https://github.com/ivitan'
-        Sitemap:
+        SiteMap:
             icon: fas fa-sitemap
             url: '/xml/sitemap.xml'
         
@@ -94,15 +94,15 @@ widgets:
         # Where should the widget be placed, left or right
         position: left
         # Author name to be shown in the profile widget
-        author: Vitan Yeung
+        author: Vitan
         # Title of the author to be shown in the profile widget
-        author_title: vitan.me
+        author_title: Vitan's Blog
         # Author's current location to be shown in the profile widget
         location: Canton,China
         # Path or URL to the avatar to be shown in the profile widget
         avatar: /images/ivitan.png
         # Email address for the Gravatar to be shown in the profile widget
-        gravatar: vitan.me@gmail.com
+        #gravatar: vitan.me@gmail.com
         # Whether to show avatar image rounded or square
         avatar_rounded: false
         # Path or URL for the follow button
@@ -111,13 +111,16 @@ widgets:
         social_links:
             Email:
                 icon: fa fa-envelope
-                url: 'mailto:vitan.me@gmail.com'
+                url: 'mailto:admin@vitan.me'
             Weibo:
                 icon: fab fa-weibo
                 url: 'https://weibo.com/ivitan'
             Twitter:
                 icon: fab fa-twitter
-                url: 'https://twitter.com/vitanyeung'
+                url: 'https://twitter.com/vitanme'
+            Rss:
+                icon: fa fa-rss
+                url: '/xml/atom.xml'
 
     -
         # Widget name
