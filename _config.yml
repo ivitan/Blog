@@ -3,13 +3,18 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: vitan.me
-subtitle: ⁣⁣⁣Stay Hungry, Stay Foolish.
-description: Vitan's personal website.
+title: Vitan's Blog
+subtitle: ⁣⁣⁣求知若饥，虚心若愚。
+description: Vitan's Personal Website.
 keywords: Coder,Linux,Web,Blog...
 author: Vitan
 author_link: https://vitan.me
-language: zh-CN
+language: 
+  - zh-CN
+  - zh-TW
+  - en
+  - ja
+  - nl-NL
   
 timezone: Asia/Shanghai
 
@@ -44,36 +49,8 @@ future: true
 highlight:
   enable: true
   line_number: true
-  auto_detect: false
+  auto_detect: true
   tab_replace: ''
-
-markdown:
-  render:
-    html: true
-    xhtmlOut: false
-    breaks: false
-    linkify: true
-    typographer: true
-    quotes: '“”‘’'
-
-  plugins:
-    - markdown-it-abbr
-    - markdown-it-footnote
-    - markdown-it-ins
-    - markdown-it-sub
-    - markdown-it-sup
-    - markdown-it-emoji
-    - markdown-it-deflist
-    - markdown-it-container
-    - markdown-it-mark
-        
-  anchors:
-    level: 1
-    collisionSuffix: 'v'
-    permalink: false
-    permalinkClass: header-anchor
-    permalinkSymbol: ""
-    permalinkBefore: false
 
 # Category & Tag
 default_category: uncategorized
@@ -101,7 +78,7 @@ archive_generator:
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: icarus
+theme: indigo
 
 lazyload:
   enable: false
@@ -118,19 +95,29 @@ google_adsense:
 feed:
   type: atom
   path: /xml/atom.xml
-sitemap:
-  path: /xml/sitemap.xml
 
-# 打赏
-donate:
-  enable: true
-  donate_message: 赏
-  alipay: /images/alipay.png
-  wechat: /images/wechat.png
+jsonContent:
+  meta: false
+  pages: false
+  posts:
+    title: true
+    date: true
+    path: true
+    text: true
+    raw: false
+    content: false
+    slug: false
+    updated: false
+    comments: false
+    link: false
+    permalink: false
+    excerpt: false
+    categories: false
+    tags: true
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repo: ssh://git@github.com/ivitan/ivitan.github.io.git
+  repo: https://github.com/ivitan/ivitan.github.io.git
   branch: master

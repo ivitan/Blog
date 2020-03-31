@@ -2,12 +2,11 @@
 title: {{ title }}
 date: {{ date }}
 tags:
-- Linux
+  - Linux
+  - Win
 categories:
-- notes
+  - Coding
 author:
-- Vitan
-enable_unread_badge: true
+  - Vitan
 toc: true
-thumbnail: /images/Linux.png
 ---

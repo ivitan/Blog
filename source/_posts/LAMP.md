@@ -4,7 +4,7 @@ tags:
   - Linux
   - Web
 categories:
-  - notes
+  - Linux
 author:
   - Vitan
 enable_unread_badge: true
@@ -12,8 +12,7 @@ toc: true
 thumbnail: /images/Linux.png
 date: 2019-10-15 12:32:16
 ---
-编译安装 LAMP 
-<!--more-->
+Linux 编译安装 LAMP 
 
 # Apache
 # 准备
@@ -30,6 +29,7 @@ yum -y install make gcc openssl
 |[apr-util](https://apr.apache.org/download.cgi)|Apache 依赖包|
 |[pcre](https://ftp.pcre.org/pub/pcre/)|Apache 依赖包|
 
+<!--more-->
 ## Install
 
 - apr

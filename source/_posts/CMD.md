@@ -1,23 +1,25 @@
 ---
-title: cmd
+title: CMD
 tags:
   - Win
 categories:
-  - notes
+  - Coding
 author:
   - Vitan
 enable_unread_badge: true
 toc: true
-thumbnail: /images/Typography.png
+thumbnail: /images/Batch.png
 date: 2019-11-03 09:53:23
 ---
-转载自:https://www.cnblogs.com/kekec/p/3662125.html
-<!--more-->
+CMD 基础
+转载自:[可可西](https://www.cnblogs.com/kekec/p/3662125.html)
+
 # 基础命令
 ```cmd
 # 中断命令
 Crtl + z  
 ```
+<!--more-->
 # 文件/目录
 ##  cd
 |命令|含义|

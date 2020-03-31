@@ -3,7 +3,7 @@ title: HCNA NOTE
 tags:
   - Linux
 categories:
-  - notes
+  - Coding
 author:
   - Vitan
 enable_unread_badge: true
@@ -11,8 +11,7 @@ toc: true
 thumbnail: /images/Linux.png
 date: 2019-10-20 10:12:16
 ---
-HCNA
-<!--more-->
+HCNA 学习笔记
 
 # 网络整体架构
 ## 企业网络
@@ -23,7 +22,7 @@ HCNA
 ![](https://i.loli.net/2019/10/19/ci9HUqC17B53GvV.png)
 
 总公司与分公司使用广域网链路(WAN)互联
-
+<!--more-->
 ### 企业网络基本架构
 
 1. 小型企业：通常采用扁平网络结构，扩展能力低。
