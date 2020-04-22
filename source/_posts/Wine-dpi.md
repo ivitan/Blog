@@ -7,9 +7,7 @@ categories:
   - Linux
 author:
   - Vitan
-enable_unread_badge: true
 toc: true
-thumbnail: /images/Linux.png
 date: 2019-09-17 14:43:23
 ---
 
@@ -30,4 +28,5 @@ winecfg
 ```
 
 # 设置分辨率
-![](https://raw.githubusercontent.com/ivitan/Picture/master/Wine-dpi.png)
+
+![](https://raw.githubusercontent.com/ivitan/Picture/master/images/wine-dpi.png)

@@ -23,8 +23,15 @@
                 <%= _p('common.category', Infinity) %>
             </h3>
             <ul class="menu-list">
-            <%- build_list(_list_categories()) %>
+                <%- build_list(_list_categories()) %>
             </ul>
         </div>
     </div>
 </div>
+<div class="card widget">
+        <% if (site.categories && site.categories.length > 0) { %>
+        <%- partial('widget/category-radar') %>
+        <% } %>
+</div>
+
+<%- partial('widget/post-charts') %>

@@ -8,18 +8,18 @@ tags:
 categories:
   - Linux
 toc: true
-enable_unread_badge: true
-thumbnail: /images/ArchLinux.png
 ---
 Linux 安装 QQ WeChat Tim.
 <!--more-->
 # ArchLinux
 ## 添加 archlinuxcn 源
 - 编辑 pacman.conf
+
 ```sh
 vim /etc/pacman.conf
 ```
 - 添加
+
 ```sh
 [archlinuxcn]
 SigLevel = Optional TrustAll
